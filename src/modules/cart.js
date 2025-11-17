@@ -3,6 +3,8 @@ const cart = () => {
     const cartModal = document.querySelector('.cart');
     const cartCloseBtn = cartModal.querySelector('.cart-close')
 
+
+
     const openCart = () => {
         cartModal.style.display = 'flex'
     }
@@ -14,6 +16,9 @@ const cart = () => {
     cartBtn.addEventListener('click', openCart);
 
     cartCloseBtn.addEventListener('click', closeCart);
+
+
+
 }
 
 export default cart
